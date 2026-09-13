@@ -1,0 +1,22 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are tool-specific and
+; may change when importing scenes or changing Godot features.
+
+config_version=5
+
+[application]
+
+config/name="Color Blocks"
+config/description="A fun puzzle game where players place colored blocks on an 8×8 grid to clear rows and columns"
+run/main_scene="res://scenes/game/GameScene.tscn"
+config/features=PackedStringArray("4.1", "Forward Plus")
+config/icon="res://icon.svg"
+
+[physics]
+
+2d/physics_engine="GodotPhysics2D"
+
+[rendering]
+
+textures/canvas_textures/default_canvas_texture=SubResource("CanvasTexture_8xmqo")
