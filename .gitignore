@@ -1,0 +1,37 @@
+# Godot-specific ignores
+.godot/
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+
+# Build outputs
+build/
+dist/
+*.o
+*.a
+
+# User-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Godot project cache
+.godot/mono/
+.godot/imported/
+
+# Export templates
+export_templates/
+
+# IDE
+*.vcxproj
+*.vcxproj.filters
+
+# Misc
+*.log
+node_modules/
